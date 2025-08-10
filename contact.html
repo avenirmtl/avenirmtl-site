@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — AVENIRMTL</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head><body>
+<nav class="nav"><div class="logo"><img src="assets/img/logo.png" alt="AVENIRMTL"><strong>AVENIRMTL</strong></div>
+<div class="links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
+<header class="hero"><h1>Get in Touch</h1><p>Tell us what you’d like to build — we’ll reply within one business day.</p></header>
+<section class="container" style="max-width:720px">
+  <form class="card pad" action="https://formspree.io/f/your-id" method="POST" style="padding:18px">
+    <div class="grid" style="gap:12px">
+      <input name="name" placeholder="Your Name" required style="padding:12px;border:1px solid #d1d5db;border-radius:10px">
+      <input name="email" type="email" placeholder="Your Email" required style="padding:12px;border:1px solid #d1d5db;border-radius:10px">
+      <textarea name="message" placeholder="Your Message" required style="padding:12px;border:1px solid #d1d5db;border-radius:10px;height:140px"></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </div>
+  </form>
+  <p class="lead" style="text-align:center;margin-top:10px;color:#64748b">Replace <code>your-id</code> with your Formspree form ID to activate this form.</p>
+</section>
+<footer class="footer">© <span id="y"></span> AVENIRMTL. All rights reserved.</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body></html>

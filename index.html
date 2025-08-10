@@ -1,38 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AvenirMTL — AI Solutions</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="hero">
-    <img src="logo.png" alt="AvenirMTL Logo" class="logo" />
-    <h1>Shaping the Future with AI</h1>
-    <p>Delivering tailored AI solutions that empower businesses, streamline operations, and unlock new opportunities — with elegance, precision, and peace of mind.</p>
-  </header>
-  <main>
-    <section class="services">
-      <div class="service">
-        <img src="images/ai-chatbots.jpg" alt="AI Chatbots" />
-        <h3>AI Chatbots & Assistants</h3>
-        <p>Smart branded virtual agents that improve customer service and efficiency.</p>
-      </div>
-      <div class="service">
-        <img src="images/predictive.jpg" alt="Predictive Analytics" />
-        <h3>Predictive Analytics</h3>
-        <p>Forecast trends and make data-driven decisions with clarity and confidence.</p>
-      </div>
-      <div class="service">
-        <img src="images/automation.jpg" alt="Automation" />
-        <h3>Automation & Data Cleaning</h3>
-        <p>Automate repetitive tasks and ensure clean, reliable data across systems.</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>© 2025 AvenirMTL. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AVENIRMTL — Premium AI Solutions</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head><body>
+<nav class="nav"><div class="logo"><img src="assets/img/logo.png" alt="AVENIRMTL"><strong>AVENIRMTL</strong></div>
+<div class="links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="projects.html">Projects</a><a href="about.html">About</a><a href="contact.html">Contact</a></div></nav>
+<header class="hero">
+  <img src="assets/img/logo.png" alt="AVENIRMTL" style="height:84px;width:auto">
+  <h1>Premium AI Solutions. Peace of Mind.</h1>
+  <p>AVENIRMTL designs, builds, and integrates practical AI—so teams move faster with clarity and confidence.</p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+    <a class="btn" href="contact.html">Start a Project</a>
+    <a class="btn-outline" href="services.html">Explore Services</a>
+  </div>
+</header>
+<section class="container">
+  <h2 style="color:var(--brand);text-align:center;margin:0 0 8px">Our Services</h2>
+  <p class="lead" style="text-align:center;max-width:760px;margin:0 auto 22px">
+    Clear, practical offerings you can launch now—with advanced capabilities when you’re ready.
+  </p>
+  <div class="grid grid-3">
+    <article class="card">
+      <div class="thumb"><img src="assets/img/ai-chatbots.jpg" alt="AI Chatbots"></div>
+      <div class="pad"><h3>AI Chatbots &amp; Assistants</h3><p class="lead">Branded virtual agents that resolve FAQs, route complex cases, and integrate with your helpdesk/CRM.</p></div>
+    </article>
+    <article class="card">
+      <div class="thumb"><img src="assets/img/predictive.jpg" alt="Predictive Analytics"></div>
+      <div class="pad"><h3>Predictive Analytics</h3><p class="lead">Forecast churn, demand, and revenue—surface the <em>why</em> behind the numbers, not just charts.</p></div>
+    </article>
+    <article class="card">
+      <div class="thumb"><img src="assets/img/automation.jpg" alt="Automation &amp; Data Cleaning"></div>
+      <div class="pad"><h3>Automation &amp; Data Cleaning</h3><p class="lead">ETL pipelines that de‑duplicate, validate, and normalize data across apps for trusted decisions.</p></div>
+    </article>
+  </div>
+</section>
+<footer class="footer">© <span id="y"></span> AVENIRMTL. All rights reserved.</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body></html>
